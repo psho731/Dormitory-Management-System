@@ -16,9 +16,9 @@
 개발 기간: 7주
 
 ## 사용 기술
-language: JAVA 17
-DB: MYSQL
-
+- language: JAVA 17
+- DB: MYSQL
+- JDBC와 Socket 프로그래밍 활용 (패킷 직렬화 방식)
 
 ## 담당한 부분
 - DAO, DTO, Service, View 총괄
