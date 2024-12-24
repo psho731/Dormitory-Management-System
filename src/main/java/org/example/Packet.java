@@ -24,12 +24,12 @@ public class Packet
     public static final byte DELETE_SCHEDULE = 3;                   // 선발일정 삭제
     public static final byte DORMITORY_COST = 4;                    // 기숙사비
     public static final byte MEAL_COST = 5;                         // 식사비
-    public static final byte TOTAL_COST = 6;                       // 기숙사비,식사비,모집인원 통합
+    public static final byte TOTAL_COST = 6;                        // 기숙사비,식사비,모집인원 통합
     public static final byte APPLY = 7;                             // 입사신청
     public static final byte SELECTION = 8;                         // 선발
-    public static final byte SELECTION_CHECK = 9;                  // 선발결과 확인(관리자)
-    public static final byte MANUAL_ASSIGNMENT = 10;                 // 수동배정
-    public static final byte AUTO_ASSIGNMENT = 11;                   // 자동배정
+    public static final byte SELECTION_CHECK = 9;                   // 선발결과 확인(관리자)
+    public static final byte MANUAL_ASSIGNMENT = 10;                // 수동배정
+    public static final byte AUTO_ASSIGNMENT = 11;                  // 자동배정
     public static final byte ASSIGNMENT_CHECK = 12;                 // 배정결과 확인(관리자)
     public static final byte PASS_CHECK = 13;                       // 합격 확인
     public static final byte ROOM_CHECK = 14;                       // 호실 확인
@@ -46,8 +46,8 @@ public class Packet
     public static final byte TERMINATE = 25;                        // 통신 종료
     public static final byte SCHEDULE_CHECK = 26;                   // 선발일정학인(관리자)
 
-
-    public static final byte SUCCESS = 1;
+    // RESULT 전용 코드
+    public static final byte SUCCESS = 1;                           // 성공
 
 
     public static byte[] shortToBytes(short data)

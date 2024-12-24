@@ -43,7 +43,7 @@ public class EchoClient_TCP
                 Message.makeMessageHeader(msg, header);
 
                 // Packet body received
-                body = new byte[msg.getL1()+msg.getL2()+msg.getL3()+msg.getL4()+msg.getL5()];
+                body = new byte[msg.getTotalLength()];
                 dis.readFully(body);
 
                 // Make Message Body
