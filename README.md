@@ -5,6 +5,7 @@
 
 Packet과 Message 구현하여 사용
 
+
 ## 프로젝트 소개
 생활관을 관리하는 프로그램입니다.
 
@@ -12,10 +13,12 @@ Packet과 Message 구현하여 사용
 
 관리자는 더욱 편리하게 생활관과 학생을 관리할 수 있습니다.
 
+
 ## 개발 기간 및 인원
 인원: 4명
 
 개발 기간: 8주
+
 
 ## 사용 기술
 - language: JAVA 17
@@ -23,11 +26,13 @@ Packet과 Message 구현하여 사용
 - IDE: IntelliJ
 - JDBC와 Socket 프로그래밍 활용 (패킷 직렬화 방식)
 
+
 ## 담당한 부분
 - DAO, DTO, Service, View 총괄
 - Packet, Message 구현
 - 가독성, 효율 향상
 - 최종 첨삭
+
 
 ## 기능 소개
 
@@ -58,11 +63,9 @@ Packet과 Message 구현하여 사용
 - 로그아웃
 - 프로그램 종료
 
+
 ## 프로토콜 포맷
-- 헤더
-|type|code|L1|
-|L1|L2|L3|L4|
--바디
+[type](https://github.com/user-attachments/assets/f56f5fe8-f115-4171-ac38-f4c109e65766)
 
 
 ## ERD
