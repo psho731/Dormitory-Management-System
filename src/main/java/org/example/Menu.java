@@ -589,13 +589,13 @@ public class Menu
             while (isOn)
             {
                 System.out.println("1.선발 일정");
-                System.out.println("2.기숙사비 및 식사비");
-                System.out.println("3.신청자 조회");
+                System.out.println("2.기숙사비 및 급식비 등록");
+                System.out.println("3.입사 신청자 조회");
                 System.out.println("4.입사자 선발 및 호실 배정");
                 System.out.println("5.생활관 비용 납부자 조회");
                 System.out.println("6.생활관 비용 미납부자 조회");
                 System.out.println("7.결핵진단서");
-                System.out.println("8.퇴사신청자 조회 및 환불");
+                System.out.println("8.퇴사 신청자 조회 및 환불");
                 System.out.println("9.상벌점");
                 System.out.println("10.로그아웃");
                 System.out.println("11.프로그램 종료");
@@ -674,7 +674,7 @@ public class Menu
                     case "3":
                         while(true)
                         {
-                            System.out.println("1.신청자 조회");
+                            System.out.println("1.입사 신청자 조회");
                             System.out.println("2.이전 메뉴");
                             command = keyInput.readLine();
 
@@ -802,7 +802,7 @@ public class Menu
                     case "8":
                         while(true)
                         {
-                            System.out.println("1.퇴사신청자 조회");
+                            System.out.println("1.퇴사 신청자 조회");
                             System.out.println("2.환불");
                             System.out.println("3.이전 메뉴");
                             command = keyInput.readLine();
