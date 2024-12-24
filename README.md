@@ -65,6 +65,7 @@ Packet과 Message 구현하여 사용
 
 
 ## 프로토콜 포맷
+자세한 설명은 Packet 클래스 참조
 ![type](https://github.com/user-attachments/assets/f56f5fe8-f115-4171-ac38-f4c109e65766)
 
 
