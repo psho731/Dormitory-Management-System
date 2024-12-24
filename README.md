@@ -14,6 +14,7 @@
 ## 사용 기술
 - language: JAVA 17
 - DB: MYSQL
+- IDE: IntelliJ
 - JDBC와 Socket 프로그래밍 활용 (패킷 직렬화 방식)
 
 ## 담당한 부분
