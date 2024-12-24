@@ -10,7 +10,6 @@ public class Packet
     public static final int LEN_L2 = 2;                             // L2 길이
     public static final int LEN_L3 = 2;                             // L3 길이
     public static final int LEN_L4 = 2;                             // L4 길이
-    public static final int LEN_L5 = 2;                             // L5 길이
 
     // 타입
     public static final byte REQUEST = 1;                           // 요청
@@ -95,14 +94,12 @@ public class Packet
         short L2 = msg.getL2();
         short L3 = msg.getL3();
         short L4 = msg.getL4();
-        short L5 = msg.getL5();
         String data1 = msg.getData1();
         String data2 = msg.getData2();
         String data3 = msg.getData3();
         String data4 = msg.getData4();
-        String data5 = msg.getData5();
 
-        byte[] packet = new byte[LEN_HEADER + (int)L1 + (int)L2 + (int)L3 + (int)L4 + (int)L5];
+        byte[] packet = new byte[LEN_HEADER + (int)L1 + (int)L2 + (int)L3 + (int)L4];
         int index = 0;
 
         packet[index++] = type;
@@ -116,8 +113,6 @@ public class Packet
         index += LEN_L3;
         System.arraycopy(shortToBytes(L4), 0, packet, index, LEN_L4);
         index += LEN_L4;
-        System.arraycopy(shortToBytes(L5), 0, packet, index, LEN_L5);
-        index += LEN_L5;
 
         // 데이터 패킷화
         byte[] dataByte;
@@ -144,13 +139,6 @@ public class Packet
                     {
                         dataByte = data4.getBytes();
                         System.arraycopy(dataByte, 0, packet, index, dataByte.length);
-                        index += dataByte.length;
-
-                        if (0 < L5)
-                        {
-                            dataByte = data5.getBytes();
-                            System.arraycopy(dataByte, 0, packet, index, dataByte.length);
-                        }
                     }
                 }
             }
