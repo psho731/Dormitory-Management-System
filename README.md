@@ -58,6 +58,12 @@ Packet과 Message 구현하여 사용
 - 로그아웃
 - 프로그램 종료
 
+## 프로토콜 포맷
+- 헤더
+|type|code|L1|
+|L1|L2|L3|L4|
+-바디
+
 
 ## ERD
 ![png](https://github.com/user-attachments/assets/4bc43ee5-959b-4459-aaa2-b8f4fbde062f)
