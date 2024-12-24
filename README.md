@@ -1,12 +1,22 @@
-# Dormitory-Management-System
+# Dormitory Management System
 생활관(기숙사) 관리 시스템(CLI 환경) 파일
 
 사용자가 생활관 신청 및 관리하는 프로그램 (학교 생활관 시스템을 바탕으로 구현)
+
+## 프로젝트 소개
+생활관을 관리하는 프로그램입니다.
+학생은 생활관의 다양한 기능을 활용할 수 있습니다.
+관리자는 더욱 편리하게 생활관을 관리할 수 있습니다.
 
 ## 개발 기간 및 인원
 인원: 4명
 
 개발 기간: 7주
+
+## 사용 기술
+# language: JAVA 17
+# DB: MYSQL
+
 
 ## 담당한 부분
 - DAO, DTO, Service, View 총괄
