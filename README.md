@@ -31,7 +31,7 @@ Packet과 Message 구현하여 사용
 - DAO, DTO, Service, View 총괄
 - Packet, Message 구현
 - DB와 프로토콜 포맷 설계 일부
-- 가독성, 효율 향상
+- 효율, 유지보수 향상
 - 최종 첨삭
 
 
