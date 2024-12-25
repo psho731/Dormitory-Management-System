@@ -23,7 +23,7 @@ Packet과 Message 구현하여 사용
 ## 사용 기술
 - language: Java 17
 - Gradle: 8.5
-- DB: MYSQL
+- DB: MySQL
 - IDE: IntelliJ
 - JDBC와 Socket 프로그래밍 활용 (패킷 직렬화 방식)
 
