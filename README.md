@@ -5,6 +5,8 @@
 
 Packet과 Message 구현하여 사용
 
+3 Tier Architecture
+
 
 ## 프로젝트 소개
 생활관을 관리하는 프로그램입니다.
@@ -26,6 +28,7 @@ Packet과 Message 구현하여 사용
 - DB: MySQL
 - IDE: IntelliJ
 - JDBC와 Socket 프로그래밍 활용 (패킷 직렬화 방식)
+- 멀티 쓰레드 프로그래밍
 
 
 ## 담당한 부분
